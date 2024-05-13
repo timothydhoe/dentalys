@@ -18,6 +18,12 @@ section {
   font-style: normal;
 }
 
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -39,7 +45,10 @@ body {
 }
 
 h1 {
+  font-weight: 300;
+  letter-spacing: 0.05em;
   font-size: 7em;
+  text-transform: uppercase;
   text-align: center;
   line-height: 1.2em;
   color: rgb(250, 250, 250, 0.9);
@@ -49,7 +58,7 @@ h2 {
   font-size: 3em;
   padding-top: 2em;
   padding-bottom: 1em;
-  color: #304147;
+  color: #009fe3;
 }
 
 h3 {
@@ -230,7 +239,7 @@ main,
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:flex-start;
 }
 
 .team-member {
